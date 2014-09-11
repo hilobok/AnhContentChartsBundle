@@ -1,0 +1,30 @@
+{
+    "name": "anh/content-charts-bundle",
+    "type": "symfony-bundle",
+    "description": "Content charts bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Hilobok",
+            "email": "hilobok@gmail.com"
+        }
+    ],
+
+    "require": {
+        "anh/content-bundle": "~2.2"
+    },
+
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "Anh\\ContentChartsBundle\\": ""
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
