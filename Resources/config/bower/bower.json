@@ -1,0 +1,7 @@
+{
+    "name": "AnhContentChartsBundle",
+    "private": true,
+    "dependencies": {
+        "highcharts": "~4.0.4"
+    }
+}

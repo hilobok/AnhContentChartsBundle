@@ -11,7 +11,7 @@
     ],
 
     "require": {
-        "anh/content-bundle": "~2.2"
+        "anh/content-bundle": "~2.3"
     },
 
     "minimum-stability": "stable",

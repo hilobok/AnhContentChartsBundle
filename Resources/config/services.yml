@@ -1,0 +1,8 @@
+parameters:
+    anh_content_charts.bbcode_parser.class: Anh\ContentChartsBundle\EventListener\BbcodeParser
+
+services:
+    anh_content_charts.bbcode_parser:
+        class: %anh_content_charts.bbcode_parser.class%
+        tags:
+            - { name: kernel.event_subscriber }
